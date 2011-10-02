@@ -771,7 +771,7 @@ namespace Microsoft.Phone.Controls
             else
             {
                 // Re-synchronize SelectedIndex with SelectedItem if necessary
-                if (!object.Equals(Items[SelectedIndex], SelectedItem))
+                if (SelectedIndex != -1 && object.Equals(Items[SelectedIndex], SelectedItem) == false)
                 {
                     int selectedItemIndex = Items.IndexOf(SelectedItem);
                     if (-1 == selectedItemIndex)
