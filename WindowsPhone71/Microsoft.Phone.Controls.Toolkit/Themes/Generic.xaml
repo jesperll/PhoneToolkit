@@ -187,7 +187,7 @@
                                 ContentTemplate="{TemplateBinding HeaderTemplate}"
                                 FontFamily="{StaticResource PhoneFontFamilyNormal}"
                                 FontSize="{StaticResource PhoneFontSizeNormal}"
-                                Foreground="{StaticResource PhoneBorderBrush}"
+                                Foreground="{StaticResource PhoneSubtleBrush}"
                                 HorizontalAlignment="Left"
                                 IsTabStop="False"
                                 Margin="-1,0,0,0"
